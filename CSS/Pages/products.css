@@ -1,0 +1,63 @@
+/* StyleSheet of 'Product' page of the website */
+
+/* Product Details */
+.product-details {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    text-align: center;
+}
+
+.product-image img {
+    width: 400px;
+    height: auto;
+}
+
+.product-description {
+    margin-top: 20px;
+}
+
+.product-description p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Related Products */
+.related-products {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.related-products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.product img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}

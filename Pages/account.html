@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | Typewriter World</title>
+    <link rel="shortcut icon" href="../Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/Pages/account.css">
+    <link rel="stylesheet" href="../CSS/components.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1><a href="../index.html">Typewriter World</a></h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="maintenance.html">Maintenance</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="tabs">
+            <button id="loginTab" class="active" onclick="toggleForm('loginForm')">Login</button>
+            <button id="signupTab" onclick="toggleForm('signupForm')">Signup</button>
+        </div>
+        <form id="loginForm" class="form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" id="login-btn" class="btn">Login</button>
+        </form>
+        <form id="signupForm" class="form" style="display: none;">
+            <h2>Signup</h2>
+            <div class="form-group">
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </div>
+            <button type="submit" id="signup-btn" class="btn">Signup</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-nav-main">
+            <div class="footer-nav">
+                <a href="products.html">Products</a>
+                <a href="testimonials.html">Testimonials</a>
+            </div>
+            <div class="footer-nav">
+                <a href="maintenance.html">Maintenance</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-nav">
+                <a href="typewriterDetails.html#history-typewriter">History</a>
+                <a href="typewriterDetails.html#features-typewriter">Features</a>
+            </div>
+            <div class="footer-nav">
+                <a href="typewriterDetails.html#benefits-typewriter">Benefits</a>
+                <a href="account.html">Login</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Typewriter World. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/Pages/account.js"></script>
+</body>
+
+</html>

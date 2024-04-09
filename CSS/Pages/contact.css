@@ -1,0 +1,84 @@
+/* StyleSheet of 'Contact Us' page of the website */
+
+/* About Section */
+.about {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Contact Section */
+.contact {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-method {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.contact-method img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#email-method {
+    margin-top: 12px;
+}
+
+.contact-method p {
+    margin-bottom: 10px;
+}
+
+/* Location */
+.location {
+    margin-top: 50px;
+}
+
+.location h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.location p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.location-map {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.location-map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}

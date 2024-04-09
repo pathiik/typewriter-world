@@ -1,0 +1,40 @@
+/* StyleSheet of footer of the website */
+
+/* Footer styles */
+footer {
+    background-color: #5A827D;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-nav-main {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-nav a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #F3D6B8;
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 14px;
+}

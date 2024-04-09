@@ -1,0 +1,26 @@
+/* StyleSheet of 'Maintenance' page of the website */
+
+.maintenance {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.maintenance h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.maintenance p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.maintenance ul {
+    margin-bottom: 15px;
+}
+
+.maintenance ul li {
+    margin-bottom: 5px;
+}
